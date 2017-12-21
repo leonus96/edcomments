@@ -4,3 +4,6 @@
 # Executables
 edcomments
 edcomments.exe
+
+# Configuration file
+config.json

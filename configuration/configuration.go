@@ -19,7 +19,7 @@ type Configuration struct {
 
 func GetConfiguration() Configuration {
 	var c Configuration
-	file, err := os.Open("./db.json")
+	file, err := os.Open("./config.json")
 	if err != nil {
 		log.Fatal(err)
 	}
