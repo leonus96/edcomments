@@ -1,5 +1,5 @@
 package models
 
-type Token struct{
+type Token struct {
 	Token string `json:"token"`
 }

@@ -1,11 +1,11 @@
 package migration
 
 import (
-	"github.com/leonus96/edcommets/models"
 	"github.com/leonus96/edcommets/configuration"
+	"github.com/leonus96/edcommets/models"
 )
 
-func Migrate(){
+func Migrate() {
 	db := configuration.GetConnection()
 	defer db.Close()
 	db.CreateTable(&models.User{})
